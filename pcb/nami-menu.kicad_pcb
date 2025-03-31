@@ -84,10 +84,10 @@
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
-			(usegerberattributes yes)
-			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(usegerberextensions yes)
+			(usegerberattributes no)
+			(usegerberadvancedattributes no)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
@@ -106,16 +106,16 @@
 			(psnegative no)
 			(psa4output no)
 			(plotreference yes)
-			(plotvalue yes)
+			(plotvalue no)
 			(plotfptext yes)
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
-			(subtractmaskfromsilk no)
+			(subtractmaskfromsilk yes)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "gbr/")
 		)
 	)
 	(net 0 "")
@@ -147,7 +147,7 @@
 		(descr "Through hole straight socket strip, 2x08, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 2x08 2.54mm double row")
 		(property "Reference" "J2"
-			(at 3.209241 -1.266431 360)
+			(at 3.209241 -1.266431 0)
 			(layer "F.SilkS")
 			(uuid "0a86272d-9987-4afb-bde8-57b7b5abe9a7")
 			(effects
@@ -158,7 +158,7 @@
 			)
 		)
 		(property "Value" "Conn_02x08_Odd_Even"
-			(at -1.27 20.55 360)
+			(at -1.27 20.55 0)
 			(layer "F.Fab")
 			(uuid "7e8717a7-1167-496a-8b5d-b2d3cc435b24")
 			(effects
@@ -2155,7 +2155,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at -1.5 0 360)
+			(at -1.5 0 0)
 			(layer "B.SilkS")
 			(uuid "c8b1b6f0-ae56-495d-901b-6f2385fdff5b")
 			(effects
@@ -2593,7 +2593,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at -1.5 0 360)
+			(at -1.5 0 0)
 			(layer "B.SilkS")
 			(uuid "fcd62408-1f46-46dd-ae8f-672baa496bb2")
 			(effects
@@ -3043,7 +3043,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "cab6a893-df67-4003-acd7-864598f87d79")
 			(effects
@@ -3202,7 +3202,7 @@
 			(uuid "43f1c28f-de55-4ac6-9c7c-23eda4b21f55")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "8e4de6b6-b40b-4cca-b4b0-841dd292ff63")
 			(effects
@@ -3250,7 +3250,7 @@
 		(descr "Through hole straight pin header, 1x10, 2.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x10 2.00mm single row")
 		(property "Reference" "J1"
-			(at -2.444403 0.792425 360)
+			(at -2.444403 0.792425 0)
 			(layer "B.SilkS")
 			(uuid "b0b6ddb2-38c6-4eaf-a351-3c72cb108c13")
 			(effects
@@ -3262,7 +3262,7 @@
 			)
 		)
 		(property "Value" "Conn_01x10"
-			(at 0 -20.06 360)
+			(at 0 -20.06 0)
 			(layer "B.Fab")
 			(uuid "064d10b6-105a-4d81-9cfd-ac19099dc05f")
 			(effects
@@ -3623,7 +3623,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "5aec9dc9-5145-4eca-92d8-a64d888cf008")
 			(effects
@@ -3782,7 +3782,7 @@
 			(uuid "302c624c-17ce-48d8-adf4-ae2e9a6229b7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "c7cba809-e4cd-4ac8-adbe-34a802112108")
 			(effects
@@ -3830,7 +3830,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R4"
-			(at 1.616807 0 360)
+			(at 1.616807 0 0)
 			(layer "B.SilkS")
 			(uuid "b976a67e-4a91-445c-8a47-0c1006c6588e")
 			(effects
@@ -4052,17 +4052,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "272b1fdd-3409-4799-8c26-cb0de984ecd8")
-	)
-	(gr_rect
-		(start 56 104.5)
-		(end 151 133)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill none)
-		(layer "Dwgs.User")
-		(uuid "7f997da6-3dde-41bf-b5d2-03cd3d2f30e9")
 	)
 	(gr_line
 		(start 183.5 104.5)
